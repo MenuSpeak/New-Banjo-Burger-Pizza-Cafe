@@ -1292,7 +1292,87 @@ text-decoration:none;
         // Menu Data
         const data = [
  
+  {"id": 1, "cat": "Beverages", "name": "Cold Coffee | कोल्ड कॉफी", "price": "Rs. 40", "desc": "Chilled refreshing blended cold coffee.", "tags": ["Veg", "Beverages"], "img": "img/cold_coffee.jpeg"},
+  {"id": 2, "cat": "Beverages", "name": "Cold Coffee Crush | कोल्ड कॉफी क्रश", "price": "Rs. 50", "desc": "Thick cold coffee blended with chocolate crush.", "tags": ["Veg", "Beverages"], "img": "img/cold_coffee_crush.jpeg"},
+  {"id": 3, "cat": "Beverages", "name": "Chocolate Milkshake | चॉकलेट मिल्कशेक", "price": "Rs. 80", "desc": "Rich and creamy chocolate milkshake.", "tags": ["Veg", "Beverages"], "img": "img/chocolate_milkshake.jpeg"},
+  {"id": 4, "cat": "Beverages", "name": "Strawberry Milkshake | स्ट्रॉबेरी मिल्कशेक", "price": "Rs. 80", "desc": "Sweet and fruity strawberry milkshake.", "tags": ["Veg", "Beverages"], "img": "img/strawberry_milkshake.jpeg"},
+  {"id": 5, "cat": "Beverages", "name": "Oreo Milkshake | ओरिओ मिल्कशेक", "price": "Rs. 80", "desc": "Crunchy Oreo cookie blended thick shake.", "tags": ["Veg", "Beverages"], "img": "img/oreo_milkshake.jpeg"},
+  {"id": 6, "cat": "Beverages", "name": "KitKat Milkshake | किटकॅट मिल्कशेक", "price": "Rs. 80", "desc": "Thick chocolate shake blended with KitKat bars.", "tags": ["Veg", "Beverages"], "img": "img/kitkat_milkshake.jpeg"},
+  {"id": 7, "cat": "Beverages", "name": "Mint Mojito | मिंट मोहीतो", "price": "Rs. 80", "desc": "Refreshing cooler made with fresh mint and lemon.", "tags": ["Veg", "Beverages"], "img": "img/mint_mojito.jpeg"},
+  {"id": 8, "cat": "Beverages", "name": "Blueberry Mojito | ब्ल्यूबेरी मोहीतो", "price": "Rs. 80", "desc": "Sweet and tangy sparkling blueberry cooler.", "tags": ["Veg", "Beverages"], "img": "img/blueberry_mojito.jpeg"},
 
+  {"id": 9, "cat": "Momos", "name": "Veg Momos | व्हेज मोमोज", "price": "Rs. 80", "desc": "Steamed dumplings stuffed with mixed vegetables.", "tags": ["Veg", "Momos"], "img": "img/veg_momos.jpeg"},
+  {"id": 10, "cat": "Momos", "name": "Paneer Momos | पनीर मोमोज", "price": "Rs. 100", "desc": "Steamed dumplings stuffed with spiced paneer filling.", "tags": ["Veg", "Momos"], "img": "img/paneer_momos.jpeg"},
+  {"id": 11, "cat": "Momos", "name": "Chicken Momos | चिकन मोमोज", "price": "Rs. 100", "desc": "Juicy minced chicken stuffed steamed momos.", "tags": ["Non-Veg", "Momos"], "img": "img/chicken_momos.jpeg"},
+
+  {"id": 12, "cat": "Maggi", "name": "Veg Masala Maggi | व्हेज मसाला मॅगी", "price": "Rs. 60", "desc": "Classic Maggi cooked with mixed veggies and masala.", "tags": ["Veg", "Maggi"], "img": "img/veg_masala_maggi.jpeg"},
+  {"id": 13, "cat": "Maggi", "name": "Peri Peri Maggi | पेरी पेरी मॅगी", "price": "Rs. 80", "desc": "Spicy Maggi noodles tossed in peri peri spice.", "tags": ["Veg", "Maggi"], "img": "img/peri_peri_maggi.jpeg"},
+  {"id": 14, "cat": "Maggi", "name": "Cheese Maggi | चीज मॅगी", "price": "Rs. 100", "desc": "Hot Maggi topped with generous melted cheese.", "tags": ["Veg", "Maggi"], "img": "img/cheese_maggi.jpeg"},
+
+  {"id": 15, "cat": "Bread", "name": "Garlic Bread Cheesy | गार्लिक ब्रेड चीझी", "price": "Rs. 100", "desc": "Toasted garlic bread topped with melted cheese.", "tags": ["Veg", "Bread"], "img": "img/garlic_bread_cheesy.jpeg"},
+  {"id": 16, "cat": "Bread", "name": "Garlic Bread Veggies | गार्लिक ब्रेड व्हेजीज", "price": "Rs. 120", "desc": "Garlic bread topped with cheese and fresh veggies.", "tags": ["Veg", "Bread"], "img": "img/garlic_bread_veggies.jpeg"},
+
+  {"id": 17, "cat": "Roll", "name": "Veg Roll | व्हेज रोल", "price": "Rs. 80", "desc": "Crispy vegetable patty wrapped in flatbread.", "tags": ["Veg", "Roll"], "img": "img/veg_roll.jpeg"},
+  {"id": 18, "cat": "Roll", "name": "Paneer Roll | पनीर रोल", "price": "Rs. 100", "desc": "Spiced paneer cubes and veggies wrapped in roll.", "tags": ["Veg", "Roll"], "img": "img/paneer_roll.jpeg"},
+  {"id": 19, "cat": "Roll", "name": "Paneer Cheese Roll | पनीर चीज रोल", "price": "Rs. 120", "desc": "Paneer roll loaded with extra melted cheese.", "tags": ["Veg", "Roll"], "img": "img/paneer_cheese_roll.jpeg"},
+  {"id": 20, "cat": "Roll", "name": "Egg Roll | एग रोल", "price": "Rs. 80", "desc": "Classic egg omelette roll with onions and sauces.", "tags": ["Non-Veg", "Roll"], "img": "img/egg_roll.jpeg"},
+  {"id": 21, "cat": "Roll", "name": "Cheese Roll | चीज रोल", "price": "Rs. 100", "desc": "Roll stuffed with savory cheese and salad.", "tags": ["Veg", "Roll"], "img": "img/cheese_roll.jpeg"},
+  {"id": 22, "cat": "Roll", "name": "Egg Cheese Roll | एग चीज रोल", "price": "Rs. 120", "desc": "Egg omelette roll stuffed with melted cheese.", "tags": ["Non-Veg", "Roll"], "img": "img/egg_cheese_roll.jpeg"},
+
+  {"id": 23, "cat": "Fries", "name": "Classic Salted Fries | क्लासिक सॉल्टेड फ्राईज", "price": "Rs. 80", "desc": "Crispy golden fried salted potato fries.", "tags": ["Veg", "Fries"], "img": "img/classic_salted_fries.jpeg"},
+  {"id": 24, "cat": "Fries", "name": "Salted Cheese Fries | सॉल्टेड चीज फ्राईज", "price": "Rs. 110", "desc": "Salted crispy fries topped with cheese sauce.", "tags": ["Veg", "Fries"], "img": "img/salted_cheese_fries.jpeg"},
+  {"id": 25, "cat": "Fries", "name": "Peri-Peri Fries | पेरी-पेरी फ्राईज", "price": "Rs. 100", "desc": "Crispy french fries tossed with spicy peri peri seasoning.", "tags": ["Veg", "Fries"], "img": "img/peri_peri_fries.jpeg"},
+  {"id": 26, "cat": "Fries", "name": "Peri Peri Cheesy Fries | पेरी पेरी चीझी फ्राईज", "price": "Rs. 130", "desc": "Spicy peri peri fries loaded with melted cheese.", "tags": ["Veg", "Fries"], "img": "img/peri_peri_cheesy_fries.jpeg"},
+
+  {"id": 27, "cat": "Combo Offers", "name": "Veg Burger Combo (Burger + Fries + Cold Drink) | व्हेज बर्गर कॉम्बो", "price": "Rs. 180", "desc": "Veg Burger served with crispy fries and chilled cold drink.", "tags": ["Veg", "Combo Offers"], "img": "img/veg_burger_combo.jpeg"},
+  {"id": 28, "cat": "Combo Offers", "name": "Chicken Burger Combo (Burger + Fries + Cold Drink) | चिकन बर्गर कॉम्बो", "price": "Rs. 200", "desc": "Juicy Chicken Burger served with fries and cold drink.", "tags": ["Non-Veg", "Combo Offers"], "img": "img/chicken_burger_combo.jpeg"},
+  {"id": 29, "cat": "Combo Offers", "name": "Pizza Combo (Pizza + Fries + Cold Drink) | पिझ्झा कॉम्बो", "price": "Rs. 200", "desc": "Personal pizza served with crispy fries and cold drink.", "tags": ["Veg", "Combo Offers"], "img": "img/pizza_combo.jpeg"},
+  {"id": 30, "cat": "Combo Offers", "name": "Momos Combo (Momos + Fries + Cold Drink) | मोमोज कॉम्बो", "price": "Rs. 170", "desc": "Steamed momos served with french fries and cold drink.", "tags": ["Veg", "Combo Offers"], "img": "img/momos_combo.jpeg"},
+  {"id": 31, "cat": "Combo Offers", "name": "Roll Combo (Roll + Fries + Cold Drink) | रोल कॉम्बो", "price": "Rs. 170", "desc": "Delicious roll served with crispy fries and cold drink.", "tags": ["Veg", "Combo Offers"], "img": "img/roll_combo.jpeg"},
+
+  {"id": 32, "cat": "Veg Pizza", "name": "Cheese Margherita Pizza (Medium) | चीज मार्गेरिटा पिझ्झा (मीडियम)", "price": "Rs. 140", "desc": "Classic cheese Margherita pizza with herb tomato base (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/cheese_margherita_pizza.jpeg"},
+  {"id": 33, "cat": "Veg Pizza", "name": "Cheese Margherita Pizza (Large) | चीज मार्गेरिटा पिझ्झा (लार्ज)", "price": "Rs. 160", "desc": "Classic cheese Margherita pizza with herb tomato base (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/cheese_margherita_pizza.jpeg"},
+  {"id": 34, "cat": "Veg Pizza", "name": "Double Cheese Pizza (Medium) | डबल चीज पिझ्झा (मीडियम)", "price": "Rs. 180", "desc": "Loaded with double layer of mozzarella cheese (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/double_cheese_pizza.jpeg"},
+  {"id": 35, "cat": "Veg Pizza", "name": "Double Cheese Pizza (Large) | डबल चीज पिझ्झा (लार्ज)", "price": "Rs. 200", "desc": "Loaded with double layer of mozzarella cheese (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/double_cheese_pizza.jpeg"},
+  {"id": 36, "cat": "Veg Pizza", "name": "Veg Cheese Pizza (Medium) | व्हेज चीज पिझ्झा (मीडियम)", "price": "Rs. 150", "desc": "Topped with crunchy vegetables and mozzarella cheese (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/veg_cheese_pizza.jpeg"},
+  {"id": 37, "cat": "Veg Pizza", "name": "Veg Cheese Pizza (Large) | व्हेज चीज पिझ्झा (लार्ज)", "price": "Rs. 170", "desc": "Topped with crunchy vegetables and mozzarella cheese (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/veg_cheese_pizza.jpeg"},
+  {"id": 38, "cat": "Veg Pizza", "name": "Paneer Cheese Pizza (Medium) | पनीर चीज पिझ्झा (मीडियम)", "price": "Rs. 200", "desc": "Topped with seasoned paneer cubes and mozzarella (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_cheese_pizza.jpeg"},
+  {"id": 39, "cat": "Veg Pizza", "name": "Paneer Cheese Pizza (Large) | पनीर चीज पिझ्झा (लार्ज)", "price": "Rs. 220", "desc": "Topped with seasoned paneer cubes and mozzarella (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_cheese_pizza.jpeg"},
+  {"id": 40, "cat": "Veg Pizza", "name": "Corn Cheese Pizza (Medium) | कॉर्न चीज पिझ्झा (मीडियम)", "price": "Rs. 150", "desc": "Loaded with juicy sweet corn and mozzarella (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/corn_cheese_pizza.jpeg"},
+  {"id": 41, "cat": "Veg Pizza", "name": "Corn Cheese Pizza (Large) | कॉर्न चीज पिझ्झा (लार्ज)", "price": "Rs. 170", "desc": "Loaded with juicy sweet corn and mozzarella (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/corn_cheese_pizza.jpeg"},
+  {"id": 42, "cat": "Veg Pizza", "name": "Paneer Peri Peri Pizza (Medium) | पनीर पेरी पेरी पिझ्झा (मीडियम)", "price": "Rs. 210", "desc": "Spicy peri peri flavored paneer pizza (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_peri_peri_pizza.jpeg"},
+  {"id": 43, "cat": "Veg Pizza", "name": "Paneer Peri Peri Pizza (Large) | पनीर पेरी पेरी पिझ्झा (लार्ज)", "price": "Rs. 230", "desc": "Spicy peri peri flavored paneer pizza (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_peri_peri_pizza.jpeg"},
+  {"id": 44, "cat": "Veg Pizza", "name": "Veg Cheese Burst Pizza (Medium) | व्हेज चीज बर्स्ट पिझ्झा (मीडियम)", "price": "Rs. 270", "desc": "Crust overflowing with molten liquid cheese and veggies (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/veg_cheese_burst_pizza.jpeg"},
+  {"id": 45, "cat": "Veg Pizza", "name": "Veg Cheese Burst Pizza (Large) | व्हेज चीज बर्स्ट पिझ्झा (लार्ज)", "price": "Rs. 290", "desc": "Crust overflowing with molten liquid cheese and veggies (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/veg_cheese_burst_pizza.jpeg"},
+  {"id": 46, "cat": "Veg Pizza", "name": "Tandoori Paneer Pizza (Medium) | तंदूरी पनीर पिझ्झा (मीडियम)", "price": "Rs. 210", "desc": "Smoky tandoori marinated paneer toppings (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/tandoori_paneer_pizza.jpeg"},
+  {"id": 47, "cat": "Veg Pizza", "name": "Tandoori Paneer Pizza (Large) | तंदूरी पनीर पिझ्झा (लार्ज)", "price": "Rs. 230", "desc": "Smoky tandoori marinated paneer toppings (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/tandoori_paneer_pizza.jpeg"},
+  {"id": 48, "cat": "Veg Pizza", "name": "Paneer Cheese Burst Pizza (Medium) | पनीर चीज बर्स्ट पिझ्झा (मीडियम)", "price": "Rs. 280", "desc": "Cheese burst crust loaded with paneer cubes (Medium).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_cheese_burst_pizza.jpeg"},
+  {"id": 49, "cat": "Veg Pizza", "name": "Paneer Cheese Burst Pizza (Large) | पनीर चीज बर्स्ट पिझ्झा (लार्ज)", "price": "Rs. 300", "desc": "Cheese burst crust loaded with paneer cubes (Large).", "tags": ["Veg", "Veg Pizza"], "img": "img/paneer_cheese_burst_pizza.jpeg"},
+
+  {"id": 50, "cat": "Chicken Pizza", "name": "Chicken Cheese Pizza (Medium) | चिकन चीज पिझ्झा (मीडियम)", "price": "Rs. 180", "desc": "Topped with tender chicken chunks and cheese (Medium).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_cheese_pizza.jpeg"},
+  {"id": 51, "cat": "Chicken Pizza", "name": "Chicken Cheese Pizza (Large) | चिकन चीज पिझ्झा (लार्ज)", "price": "Rs. 200", "desc": "Topped with tender chicken chunks and cheese (Large).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_cheese_pizza.jpeg"},
+  {"id": 52, "cat": "Chicken Pizza", "name": "Chicken Peri Peri Pizza (Medium) | चिकन पेरी पेरी पिझ्झा (मीडियम)", "price": "Rs. 190", "desc": "Spicy peri peri flavored chicken pizza (Medium).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_peri_peri_pizza.jpeg"},
+  {"id": 53, "cat": "Chicken Pizza", "name": "Chicken Peri Peri Pizza (Large) | चिकन पेरी पेरी पिझ्झा (लार्ज)", "price": "Rs. 210", "desc": "Spicy peri peri flavored chicken pizza (Large).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_peri_peri_pizza.jpeg"},
+  {"id": 54, "cat": "Chicken Pizza", "name": "Tandoori Chicken Pizza (Medium) | तंदूरी चिकन पिझ्झा (मीडियम)", "price": "Rs. 210", "desc": "Topped with smoky tandoori chicken chunks (Medium).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/tandoori_chicken_pizza.jpeg"},
+  {"id": 55, "cat": "Chicken Pizza", "name": "Tandoori Chicken Pizza (Large) | तंदूरी चिकन पिझ्झा (लार्ज)", "price": "Rs. 230", "desc": "Topped with smoky tandoori chicken chunks (Large).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/tandoori_chicken_pizza.jpeg"},
+  {"id": 56, "cat": "Chicken Pizza", "name": "Chicken Cheese Burst Pizza (Medium) | चिकन चीज बर्स्ट पिझ्झा (मीडियम)", "price": "Rs. 280", "desc": "Molten cheese burst crust topped with chicken (Medium).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_cheese_burst_pizza.jpeg"},
+  {"id": 57, "cat": "Chicken Pizza", "name": "Chicken Cheese Burst Pizza (Large) | चिकन चीज बर्स्ट पिझ्झा (लार्ज)", "price": "Rs. 300", "desc": "Molten cheese burst crust topped with chicken (Large).", "tags": ["Non-Veg", "Chicken Pizza"], "img": "img/chicken_cheese_burst_pizza.jpeg"},
+
+  {"id": 58, "cat": "Burger", "name": "Veg Burger | व्हेज बर्गर", "price": "Rs. 60", "desc": "Crispy vegetable patty burger with fresh lettuce and sauces.", "tags": ["Veg", "Burger"], "img": "img/veg_burger.jpeg"},
+  {"id": 59, "cat": "Burger", "name": "Veg Cheese Burger | व्हेज चीज बर्गर", "price": "Rs. 80", "desc": "Crispy veg burger loaded with cheese slice.", "tags": ["Veg", "Burger"], "img": "img/veg_cheese_burger.jpeg"},
+  {"id": 60, "cat": "Burger", "name": "Tandoori Veg Burger | तंदूरी व्हेज बर्गर", "price": "Rs. 100", "desc": "Veg burger seasoned with smoky tandoori sauce.", "tags": ["Veg", "Burger"], "img": "img/tandoori_veg_burger.jpeg"},
+  {"id": 61, "cat": "Burger", "name": "Double Tikki Burger | डबल टिक्की बर्गर", "price": "Rs. 110", "desc": "Loaded veg burger with two crispy patties.", "tags": ["Veg", "Burger"], "img": "img/double_tikki_burger.jpeg"},
+  {"id": 62, "cat": "Burger", "name": "Chicken Burger | चिकन बर्गर", "price": "Rs. 80", "desc": "Juicy chicken patty stuffed with lettuce and mayo.", "tags": ["Non-Veg", "Burger"], "img": "img/chicken_burger.jpeg"},
+  {"id": 63, "cat": "Burger", "name": "Chicken Cheese Burger | चिकन चीज बर्गर", "price": "Rs. 100", "desc": "Chicken burger topped with melted cheese slice.", "tags": ["Non-Veg", "Burger"], "img": "img/chicken_cheese_burger.jpeg"},
+  {"id": 64, "cat": "Burger", "name": "Chicken Double Tikki Burger | चिकन डबल टिक्की बर्गर", "price": "Rs. 130", "desc": "Huge burger loaded with two chicken patties.", "tags": ["Non-Veg", "Burger"], "img": "img/chicken_double_tikki_burger.jpeg"},
+
+  {"id": 65, "cat": "Sandwich", "name": "Veg Sandwich (Grilled) | व्हेज सँडविच (ग्रिल्ड)", "price": "Rs. 80", "desc": "Grilled vegetable sandwich with spices and chutneys.", "tags": ["Veg", "Sandwich"], "img": "img/veg_sandwich_grilled.jpeg"},
+  {"id": 66, "cat": "Sandwich", "name": "Veg Sandwich (Plain) | व्हेज सँडविच (प्लेन)", "price": "Rs. 60", "desc": "Fresh raw vegetable sandwich seasoned with mild spices.", "tags": ["Veg", "Sandwich"], "img": "img/veg_sandwich_plain.jpeg"},
+  {"id": 67, "cat": "Sandwich", "name": "Paneer Cheese Sandwich (Grilled) | पनीर चीज सँडविच (ग्रिल्ड)", "price": "Rs. 110", "desc": "Spiced paneer and cheese stuffed grilled sandwich.", "tags": ["Veg", "Sandwich"], "img": "img/paneer_cheese_sandwich_grilled.jpeg"},
+  {"id": 68, "cat": "Sandwich", "name": "Chocolate Sandwich (Grilled) | चॉकलेट सँडविच (ग्रिल्ड)", "price": "Rs. 50", "desc": "Grilled sweet sandwich filled with melted chocolate.", "tags": ["Veg", "Sandwich"], "img": "img/chocolate_sandwich_grilled.jpeg"},
+  {"id": 69, "cat": "Sandwich", "name": "Cafe Special Veg Sandwich (Grilled) | कॅफे स्पेशल व्हेज सँडविच (ग्रिल्ड)", "price": "Rs. 150", "desc": "House special multi-layered loaded veg grilled sandwich.", "tags": ["Veg", "Sandwich"], "img": "img/cafe_special_veg_sandwich_grilled.jpeg"},
+  {"id": 70, "cat": "Sandwich", "name": "Chicken Plain Sandwich | चिकन प्लेन सँडविच", "price": "Rs. 90", "desc": "Shredded chicken and mayo filling inside soft bread.", "tags": ["Non-Veg", "Sandwich"], "img": "img/chicken_plain_sandwich.jpeg"},
+  {"id": 71, "cat": "Sandwich", "name": "Chicken Cheese Sandwich | चिकन चीज सँडविच", "price": "Rs. 120", "desc": "Grilled chicken sandwich loaded with cheese.", "tags": ["Non-Veg", "Sandwich"], "img": "img/chicken_cheese_sandwich.jpeg"},
 
 
 
